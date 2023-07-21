@@ -1,0 +1,52 @@
+/* PaginationTable.scss */
+
+$primaryColor: #007bff;
+$lightGrey: #f8f9fa;
+$darkGrey: #6c757d;
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: $lightGrey;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  color: $darkGrey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: $lightGrey;
+}
+
+button {
+  background-color: $primaryColor;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darken($primaryColor, 10%);
+}

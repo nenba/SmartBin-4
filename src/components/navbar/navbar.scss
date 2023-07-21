@@ -1,0 +1,67 @@
+// navbar.scss
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: #141212;
+}
+
+.navbar {
+  height: 50px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  //font-size: 14px;
+  color: #555;
+  
+  .wastebin{
+    background-color: #4CAF50; /* Green */
+    border-style:  solid;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    padding: 8px 411px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .history{
+    background-color: #4CAF50; /* Green */
+    border-style:  solid;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    padding: 8px 422.8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  
+
+  .logout {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logout button {
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 20px 24px 15px;
+    border: 1px solid black;
+  }
+  
+}
